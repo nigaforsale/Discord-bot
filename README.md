@@ -18,10 +18,13 @@
 
 請在專案根目錄建立一個名為 .env 的檔案，並填入以下內容：
 
-您的機器人 Token  
-    DISCORD_TOKEN=Your_Discord_Bot_Token  
-用於接收報錯日誌的 Webhook URL  
-    LOG_WEBHOOK_URL=Your_Webhook_URL  
+您的機器人 Token
+
+    DISCORD_TOKEN=Your_Discord_Bot_Token
+
+用於接收報錯日誌的 Webhook URL
+
+    LOG_WEBHOOK_URL=Your_Webhook_URL
 
 ### 5.啟動機器人
     python bot.py
