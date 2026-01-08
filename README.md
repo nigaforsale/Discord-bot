@@ -9,22 +9,22 @@
     Python 3.8 或以上版本
 
 ### 2.下載專案
-    ```git clone https://github.com/nigaforsale/Discord-bot.git```
+    git clone https://github.com/nigaforsale/Discord-bot.git
 
 ### 3.安裝依賴套件
-    ```pip install -r requirements.txt```
+    pip install -r requirements.txt
 
 ### 4.設定環境變數 (.env)
 
 請在專案根目錄建立一個名為 .env 的檔案，並填入以下內容：
 
 您的機器人 Token  
-    ```DISCORD_TOKEN=Your_Discord_Bot_Token``` 
-用於接收報錯日誌的 Webhook URL
-    ```LOG_WEBHOOK_URL=Your_Webhook_URL``` 
+    DISCORD_TOKEN=Your_Discord_Bot_Token  
+用於接收報錯日誌的 Webhook URL  
+    LOG_WEBHOOK_URL=Your_Webhook_URL  
 
 ### 5.啟動機器人
-    ```python bot.py```
+    python bot.py
 
 ## 注意事項
 - 權限設定：請確保機器人在 Discord 伺服器中擁有 Manage Channels (管理頻道) 與 Manage Messages (管理訊息) 的權限，否則客服單與刪除訊息功能將無法運作。
