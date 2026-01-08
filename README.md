@@ -29,13 +29,6 @@
 ### 5.啟動機器人
     python bot.py
 
-## 注意事項
-- 權限設定：請確保機器人在 Discord 伺服器中擁有 Manage Channels (管理頻道) 與 Manage Messages (管理訊息) 的權限，否則客服單與刪除訊息功能將無法運作。
-
-- 安全性：絕對不要將 .env 檔案上傳到 GitHub 或分享給他人。
-
-- API 限制：IP 查詢功能使用 ip-api.com 的免費端點，請勿在短時間內大量頻繁請求，以免被封鎖。
-
 ## 主要功能
 
 ### 客服單系統 (Ticket System)
@@ -75,5 +68,12 @@
 - 本地日誌：自動建立 log/ 資料夾並記錄運行日誌。
 
 - Webhook 警報：當發生錯誤或警告時，自動發送通知到指定的 Discord 頻道。
+
+## 注意事項
+- 權限設定：請確保機器人在 Discord 伺服器中擁有 Manage Channels (管理頻道) 與 Manage Messages (管理訊息) 的權限，否則客服單與刪除訊息功能將無法運作。
+
+- 安全性：絕對不要將 .env 檔案上傳到 GitHub 或分享給他人。
+
+- API 限制：IP 查詢功能使用 ip-api.com 的免費端點，請勿在短時間內大量頻繁請求，以免被封鎖。
 
 ## Created by xNone1337
