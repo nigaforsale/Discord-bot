@@ -57,9 +57,11 @@
 
 - /ticket_setup：發送客服單建立面板 (支援指定頻道)。
 
-- /delete <count>：批量刪除訊息 (Purge)。
+- /delete <count>：批量刪除訊息。
 
-- /kick / /ban：踢出或封鎖成員 (含身分組權限檢查)。
+- /kick：踢出成員。
+
+- /ban：封鎖成員。
 
 - /nick：強制修改成員暱稱。
 
